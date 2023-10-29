@@ -41,5 +41,6 @@ jobs:
           artifacts: "./*/*.zst"
           tag: ${{ env.COMMIT_HASH }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          skipIfReleaseExists: true
           replacesArtifacts: true
     
