@@ -17,6 +17,7 @@ pkgbase = linuxqq
 	depends = openjpeg2
 	optdepends = libappindicator-gtk3: Allow QQ to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library).
 	conflicts = linuxqq-nt-bwrap
+	options = !strip
 	source = linuxqq.sh
 	sha512sums = 8c92a5dcc2651a4ffb73425abbd8a567c4f043ec5b0614505273511260560a25ce8db30c6848977378921d860dc0a73eca083299706a585461587a48949e175c
 	source_x86_64 = https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.7_240403_amd64_01.deb
