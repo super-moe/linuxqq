@@ -2,7 +2,7 @@
 # Contributor: Integral <integral@member.fsf.org>
 
 pkgname=linuxqq
-pkgver=3.2.9_24402
+pkgver=3.2.9_24568
 pkgrel=1
 epoch=4
 pkgdesc='New Linux QQ based on Electron'
@@ -12,9 +12,9 @@ license=('LicenseRef-QQ')
 conflicts=('linuxqq-nt-bwrap')
 depends=('nss' 'alsa-lib' 'gtk3' 'gjs' 'at-spi2-core' 'libvips' 'openjpeg2')
 optdepends=('libappindicator-gtk3: Allow QQ to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library).')
-source_x86_64=("https://dldir1.qq.com/qqfile/qq/QQNT/442cbbb1/${pkgname}_${pkgver/_/-}_amd64.deb")
-source_aarch64=("https://dldir1.qq.com/qqfile/qq/QQNT/442cbbb1/${pkgname}_${pkgver/_/-}_arm64.deb")
-source_loong64=("https://dldir1.qq.com/qqfile/qq/QQNT/442cbbb1/${pkgname}_${pkgver/_/-}_loongarch64.deb")
+source_x86_64=("https://dldir1.qq.com/qqfile/qq/QQNT/a663aa83/${pkgname}_${pkgver/_/-}_amd64.deb")
+source_aarch64=("https://dldir1.qq.com/qqfile/qq/QQNT/a663aa83/${pkgname}_${pkgver/_/-}_arm64.deb")
+source_loong64=("https://dldir1.qq.com/qqfile/qq/QQNT/a663aa83/${pkgname}_${pkgver/_/-}_loongarch64.deb")
 source=("linuxqq.sh")
 sha512sums=('f463c5cb3323b86d9ea312d75f1e53d064885dabde2d1d6a554e083e15b5ff7fc548a96670284e5e996456c7a2ce4a25e9acb80bf48459ea47a8813d62203cb4')
 sha512sums_x86_64=('abc5fff9c9e81798611124ab12bc690693e25b61d7a7f965668f19cf57f0858b0a3162f3c727fe92ef8abd6808ef6c126768ef52c1968bc77e705eac4834f3ea')
