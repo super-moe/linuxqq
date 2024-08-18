@@ -1,6 +1,6 @@
 pkgbase = linuxqq
 	pkgdesc = New Linux QQ based on Electron
-	pkgver = 3.2.12_26909
+	pkgver = 3.2.12_27206
 	pkgrel = 1
 	epoch = 4
 	url = https://im.qq.com/linuxqq
@@ -22,11 +22,11 @@ pkgbase = linuxqq
 	options = !debug
 	source = linuxqq.sh
 	sha512sums = f463c5cb3323b86d9ea312d75f1e53d064885dabde2d1d6a554e083e15b5ff7fc548a96670284e5e996456c7a2ce4a25e9acb80bf48459ea47a8813d62203cb4
-	source_x86_64 = https://dldir1.qq.com/qqfile/qq/QQNT/2b82dc28/linuxqq_3.2.12-26909_amd64.deb
-	sha512sums_x86_64 = ad4657fd72ba13f804db24336cc07636454afd9fc97dac1a9d575a8500227f996879386e2257e290139bc7ba9e2f56e305b4969ca9c9ee5dbd7efd0302ed7ca9
-	source_aarch64 = https://dldir1.qq.com/qqfile/qq/QQNT/2b82dc28/linuxqq_3.2.12-26909_arm64.deb
-	sha512sums_aarch64 = 22fb0f590f8a4be148750fde203fd42647557998caa8516b165094020ee3f670f967d9d313d47fdbbf449f497cbe23f612355b6afae9cfde7df02c52e64ef0ca
-	source_loong64 = https://dldir1.qq.com/qqfile/qq/QQNT/2b82dc28/linuxqq_3.2.12-26909_loongarch64.deb
-	sha512sums_loong64 = 19192fb5d4b1de95fe677195db92fcf70fea0daa286697faf558305f44ecb980a3f44f29cc7b9d846ef76a4dd4b06a2e5ecc2c1c2e21c1603188d3a7e79292ce
+	source_x86_64 = https://dldir1.qq.com/qqfile/qq/QQNT/f572fbfa/linuxqq_3.2.12-27206_amd64.deb
+	sha512sums_x86_64 = 6c0f8e4b05df6d4b8eb061e355f896b88bc22d59944916083a68dc93f9e40b78efc88fa4a4ababffb6810b16cd4de7c7e75a989bc4a49fb5b9486b75a4f568c5
+	source_aarch64 = https://dldir1.qq.com/qqfile/qq/QQNT/f572fbfa/linuxqq_3.2.12-27206_arm64.deb
+	sha512sums_aarch64 = efd2cf6905c49410e2d9eafb7d5e3f84e96463dbd90fdfb247493e6bdbd439ba975a449dfe3018e459ab1b2c3ce0055de5503addaeeea1bfda8ffd4e89b688aa
+	source_loong64 = https://dldir1.qq.com/qqfile/qq/QQNT/f572fbfa/linuxqq_3.2.12-27206_loongarch64.deb
+	sha512sums_loong64 = 05f7cceeec18ca198907c9e7b8d76fefb3c818ce30de47ed42dde3e4226d9f8b49cd071724ea546d1ed8f794de259f8e5eb5a6f210cfdbbcd5bf740b77c70cd4
 
 pkgname = linuxqq
