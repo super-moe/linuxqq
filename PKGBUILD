@@ -2,7 +2,7 @@
 # Contributor: Integral <integral@member.fsf.org>
 
 pkgname=linuxqq
-pkgver=3.2.12_240902
+pkgver=3.2.12_28060
 pkgrel=1
 epoch=5
 pkgdesc="New Linux QQ based on Electron"
@@ -12,14 +12,14 @@ license=('LicenseRef-QQ')
 conflicts=("${pkgname}-nt-bwrap")
 depends=('nss' 'alsa-lib' 'gtk3' 'gjs' 'at-spi2-core' 'libvips' 'openjpeg2' 'openslide')
 optdepends=('libappindicator-gtk3: Allow QQ to extend a menu via Ayatana indicators in Unity, KDE or Systray (GTK+ 3 library).')
-source_x86_64=("https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_${pkgver}_amd64_01.deb")
-source_aarch64=("https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_${pkgver}_arm64_01.deb")
-source_loong64=("https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_${pkgver}_loongarch64_01.deb")
+source_x86_64=("https://dldir1.qq.com/qqfile/qq/QQNT/1aff6d6d/linuxqq_${pkgver/_/-}_amd64.deb")
+source_aarch64=("https://dldir1.qq.com/qqfile/qq/QQNT/1aff6d6d/linuxqq_${pkgver/_/-}_arm64.deb")
+source_loong64=("https://dldir1.qq.com/qqfile/qq/QQNT/1aff6d6d/linuxqq_${pkgver/_/-}_loongarch64.deb")
 source=("${pkgname}.sh")
 sha512sums=('f463c5cb3323b86d9ea312d75f1e53d064885dabde2d1d6a554e083e15b5ff7fc548a96670284e5e996456c7a2ce4a25e9acb80bf48459ea47a8813d62203cb4')
-sha512sums_x86_64=('0af3697336d0f2cbdcac04bbe7539f5f5dccc613cbd773e2f3c13939998fdde8739aaa05468147aeb5e0cdbd0f305b6cd7bfa4ed4b41ef0fb62228ca8b8f8240')
-sha512sums_aarch64=('659a53dea002263ab18b2bb37c6f36574ea3e975e147a1c1021d26a23344c1263c625ec8305dbf0b61ed08abfabd72f8af78c562bf643c843b1fd3062967e19d')
-sha512sums_loong64=('cc563e2ae29c1d7216794a558c5182a1128abcad6f209a7d236ac5a377a5c9268b3626a22a65a818446de5eaf71052f12eec7c88f6d8ce7ac2b4999cea19a632')
+sha512sums_x86_64=('8ad04fe70dd3584e875b669751ece75af8cbbee801cf8abe5812725ed8c8a4e65575953bcc4c1ab36141e820f5340751ba4d9a0c00c5617ba3832e6767672745')
+sha512sums_aarch64=('e79f2104ed9a3d8c079fb0e929ef2ea77a3ad89883dcc2a7e1d299247824616e5829fc2bcd9c568c2d3be4d1ac050eca49be06f4915cc502d5deac83328bd930')
+sha512sums_loong64=('853878ea8f9483437520ae3960083b53d89a324b72b95ad6da2e61cbd281191fe4cd95adf03de9564ace4e2f934fa5377800f1afd17ca9723a82d42664b9078d')
 options=('!strip' '!debug')
 
 package() {
