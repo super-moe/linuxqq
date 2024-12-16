@@ -3,7 +3,7 @@
 
 pkgname=linuxqq
 pkgver=3.2.15_30366
-pkgrel=1
+pkgrel=2
 epoch=5
 pkgdesc="New Linux QQ based on Electron"
 arch=('x86_64' 'aarch64' 'loong64')
@@ -27,7 +27,6 @@ options=('!strip' '!debug')
 package() {
 	echo "  -> Extracting the data.tar.xz..."
 	bsdtar -xf data.tar.xz -C "${pkgdir}/"
-	rm -f "${pkgdir}/opt/QQ/resources/app/libssh2.so.1" # Temporary Fix
 
 	echo "  -> Installing..."
 	# Launcher
@@ -43,6 +42,6 @@ package() {
 	install -Dm644 "${pkgdir}/opt/QQ/LICENSE.electron.txt" -t "${pkgdir}/usr/share/licenses/${pkgname}/"
 	install -Dm644 "${pkgdir}/opt/QQ/LICENSES.chromium.html" -t "${pkgdir}/usr/share/licenses/${pkgname}/"
 
-	# Temporary Solution: Remove libvips which comes from package "linuxqq" itself
-	rm -f "${pkgdir}/opt/QQ/resources/app/sharp-lib/libvips-cpp.so.42"
+	# Temporary Solution: Remove libvips and libssh2 which comes from package "linuxqq" itself
+	rm -fv ${pkgdir}/opt/QQ/resources/app/{sharp-lib/libvips-cpp.so.42,{,avsdk/bugly/}libssh2.so.1}
 }
