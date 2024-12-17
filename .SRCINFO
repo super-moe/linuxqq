@@ -1,7 +1,7 @@
 pkgbase = linuxqq
 	pkgdesc = New Linux QQ based on Electron
 	pkgver = 3.2.15_30366
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 5
 	url = https://im.qq.com/linuxqq
 	arch = x86_64
@@ -21,7 +21,7 @@ pkgbase = linuxqq
 	options = !strip
 	options = !debug
 	source = linuxqq.sh
-	sha512sums = f463c5cb3323b86d9ea312d75f1e53d064885dabde2d1d6a554e083e15b5ff7fc548a96670284e5e996456c7a2ce4a25e9acb80bf48459ea47a8813d62203cb4
+	sha512sums = e06676ac2297cba5d20877ac82ef506a9596980bc66257952f37d45ef9810953aedb789655d004b3fd0ac548f2f085e1be406081d9c8d5321622567431c7b3da
 	source_x86_64 = https://dldir1.qq.com/qqfile/qq/QQNT/bd4584dd/linuxqq_3.2.15-30366_amd64.deb
 	sha512sums_x86_64 = bfe7001afc20b39e887e85264a8ec97ac655a79a1f7ad49e5177ba9093509ff60c938d88cbb0ad19e3ee5ed415cf5fffae7d45c973e6b496bf3bd33919878db5
 	source_aarch64 = https://dldir1.qq.com/qqfile/qq/QQNT/bd4584dd/linuxqq_3.2.15-30366_arm64.deb
